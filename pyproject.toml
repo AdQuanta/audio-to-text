@@ -1,0 +1,9 @@
+﻿[project]
+name = "audio-to-text"
+version = "0.1.0"
+description = "Local experiments for Hebrew-English audio transcription."
+requires-python = ">=3.11,<3.12"
+dependencies = [
+  "faster-whisper>=1.2.1",
+  "ivrit>=0.2.6",
+]
